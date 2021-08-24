@@ -5,7 +5,7 @@ import Chat from './Chat';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { useState } from 'react';
 function App() {
-  const [user, seruser] = useState('No');
+  const [user, setuser] = useState('No');
   return (
     <div className='app'>
       <div className='app__body'>
